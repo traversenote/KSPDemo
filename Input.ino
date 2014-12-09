@@ -1,4 +1,5 @@
 void input() {
+
   now = millis();
 
   if (KSPBoardReceiveData()){

@@ -1,3 +1,30 @@
+//Start of my custom definitions
+//
+//pins on the first shift register
+#define fuelWarn 1
+#define fuelCaution 2
+#define battDraw 3
+#define battStat 4
+#define battChar 5
+#define sasStat 6
+#define rcsStat 7
+#define gearStat 8
+#define lightStat 0
+
+//setup shift register pins
+//Pin connected to ST_CP of 74HC595
+#define shiftLatchPin 8
+//Pin connected to SH_CP of 74HC595
+#define shiftClockPin 12
+////Pin connected to DS of 74HC595
+#define shiftDataPin 11
+
+//remember the status of the shift register
+int ledState;
+
+//
+//end of my custom definitions
+
 //pins for LEDs
 #define GLED 5
 #define YLED 6

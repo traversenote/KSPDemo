@@ -33,9 +33,9 @@ void controls() {
 }
 
 void controlsInit() {
-  pinMode(SASPIN, INPUT_PULLUP);
-  pinMode(RCSPIN, INPUT_PULLUP);
-  pinMode(CG1PIN, INPUT_PULLUP);
+//  pinMode(SASPIN, INPUT_PULLUP);
+//  pinMode(RCSPIN, INPUT_PULLUP);
+// pinMode(CG1PIN, INPUT_PULLUP);
 }
 
 void MainControls(byte n, boolean s) {
